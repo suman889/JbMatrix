@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "JbMatrix",
-    "slug": "JbMatrix",
+    "slug": "jbmatrix",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.payradanga.JbMatrix"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e41e63f1-149d-45d1-80bc-2a7237609728"
+      }
+    },
+    "owner": "payradanga"
   }
 }
